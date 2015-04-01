@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		336E2D051ACBA91100F9DFA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E2D041ACBA91100F9DFA6 /* AppDelegate.swift */; };
+		336E2D071ACBA91100F9DFA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E2D061ACBA91100F9DFA6 /* ViewController.swift */; };
+		336E2D0A1ACBA91100F9DFA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336E2D081ACBA91100F9DFA6 /* Main.storyboard */; };
+		336E2D0C1ACBA91100F9DFA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336E2D0B1ACBA91100F9DFA6 /* Images.xcassets */; };
+		336E2D0F1ACBA91100F9DFA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 336E2D0D1ACBA91100F9DFA6 /* LaunchScreen.xib */; };
+		336E2D1B1ACBA91200F9DFA6 /* invisionLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E2D1A1ACBA91200F9DFA6 /* invisionLoginTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		336E2D151ACBA91200F9DFA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 336E2CF71ACBA91100F9DFA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 336E2CFE1ACBA91100F9DFA6;
+			remoteInfo = invisionLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		336E2CFF1ACBA91100F9DFA6 /* invisionLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = invisionLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		336E2D031ACBA91100F9DFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336E2D041ACBA91100F9DFA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		336E2D061ACBA91100F9DFA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		336E2D091ACBA91100F9DFA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		336E2D0B1ACBA91100F9DFA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		336E2D0E1ACBA91100F9DFA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		336E2D141ACBA91200F9DFA6 /* invisionLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = invisionLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		336E2D191ACBA91200F9DFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336E2D1A1ACBA91200F9DFA6 /* invisionLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invisionLoginTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		336E2CFC1ACBA91100F9DFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336E2D111ACBA91200F9DFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		336E2CF61ACBA91100F9DFA6 = {
+			isa = PBXGroup;
+			children = (
+				336E2D011ACBA91100F9DFA6 /* invisionLogin */,
+				336E2D171ACBA91200F9DFA6 /* invisionLoginTests */,
+				336E2D001ACBA91100F9DFA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		336E2D001ACBA91100F9DFA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				336E2CFF1ACBA91100F9DFA6 /* invisionLogin.app */,
+				336E2D141ACBA91200F9DFA6 /* invisionLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		336E2D011ACBA91100F9DFA6 /* invisionLogin */ = {
+			isa = PBXGroup;
+			children = (
+				336E2D041ACBA91100F9DFA6 /* AppDelegate.swift */,
+				336E2D061ACBA91100F9DFA6 /* ViewController.swift */,
+				336E2D081ACBA91100F9DFA6 /* Main.storyboard */,
+				336E2D0B1ACBA91100F9DFA6 /* Images.xcassets */,
+				336E2D0D1ACBA91100F9DFA6 /* LaunchScreen.xib */,
+				336E2D021ACBA91100F9DFA6 /* Supporting Files */,
+			);
+			path = invisionLogin;
+			sourceTree = "<group>";
+		};
+		336E2D021ACBA91100F9DFA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				336E2D031ACBA91100F9DFA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		336E2D171ACBA91200F9DFA6 /* invisionLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				336E2D1A1ACBA91200F9DFA6 /* invisionLoginTests.swift */,
+				336E2D181ACBA91200F9DFA6 /* Supporting Files */,
+			);
+			path = invisionLoginTests;
+			sourceTree = "<group>";
+		};
+		336E2D181ACBA91200F9DFA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				336E2D191ACBA91200F9DFA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		336E2CFE1ACBA91100F9DFA6 /* invisionLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336E2D1E1ACBA91200F9DFA6 /* Build configuration list for PBXNativeTarget "invisionLogin" */;
+			buildPhases = (
+				336E2CFB1ACBA91100F9DFA6 /* Sources */,
+				336E2CFC1ACBA91100F9DFA6 /* Frameworks */,
+				336E2CFD1ACBA91100F9DFA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = invisionLogin;
+			productName = invisionLogin;
+			productReference = 336E2CFF1ACBA91100F9DFA6 /* invisionLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		336E2D131ACBA91200F9DFA6 /* invisionLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336E2D211ACBA91200F9DFA6 /* Build configuration list for PBXNativeTarget "invisionLoginTests" */;
+			buildPhases = (
+				336E2D101ACBA91200F9DFA6 /* Sources */,
+				336E2D111ACBA91200F9DFA6 /* Frameworks */,
+				336E2D121ACBA91200F9DFA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				336E2D161ACBA91200F9DFA6 /* PBXTargetDependency */,
+			);
+			name = invisionLoginTests;
+			productName = invisionLoginTests;
+			productReference = 336E2D141ACBA91200F9DFA6 /* invisionLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		336E2CF71ACBA91100F9DFA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = ifd;
+				TargetAttributes = {
+					336E2CFE1ACBA91100F9DFA6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					336E2D131ACBA91200F9DFA6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 336E2CFE1ACBA91100F9DFA6;
+					};
+				};
+			};
+			buildConfigurationList = 336E2CFA1ACBA91100F9DFA6 /* Build configuration list for PBXProject "invisionLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 336E2CF61ACBA91100F9DFA6;
+			productRefGroup = 336E2D001ACBA91100F9DFA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				336E2CFE1ACBA91100F9DFA6 /* invisionLogin */,
+				336E2D131ACBA91200F9DFA6 /* invisionLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		336E2CFD1ACBA91100F9DFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336E2D0A1ACBA91100F9DFA6 /* Main.storyboard in Resources */,
+				336E2D0F1ACBA91100F9DFA6 /* LaunchScreen.xib in Resources */,
+				336E2D0C1ACBA91100F9DFA6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336E2D121ACBA91200F9DFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		336E2CFB1ACBA91100F9DFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336E2D071ACBA91100F9DFA6 /* ViewController.swift in Sources */,
+				336E2D051ACBA91100F9DFA6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336E2D101ACBA91200F9DFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336E2D1B1ACBA91200F9DFA6 /* invisionLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		336E2D161ACBA91200F9DFA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 336E2CFE1ACBA91100F9DFA6 /* invisionLogin */;
+			targetProxy = 336E2D151ACBA91200F9DFA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		336E2D081ACBA91100F9DFA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				336E2D091ACBA91100F9DFA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		336E2D0D1ACBA91100F9DFA6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				336E2D0E1ACBA91100F9DFA6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		336E2D1C1ACBA91200F9DFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		336E2D1D1ACBA91200F9DFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		336E2D1F1ACBA91200F9DFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = invisionLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		336E2D201ACBA91200F9DFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = invisionLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		336E2D221ACBA91200F9DFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = invisionLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/invisionLogin.app/invisionLogin";
+			};
+			name = Debug;
+		};
+		336E2D231ACBA91200F9DFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = invisionLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/invisionLogin.app/invisionLogin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		336E2CFA1ACBA91100F9DFA6 /* Build configuration list for PBXProject "invisionLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336E2D1C1ACBA91200F9DFA6 /* Debug */,
+				336E2D1D1ACBA91200F9DFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336E2D1E1ACBA91200F9DFA6 /* Build configuration list for PBXNativeTarget "invisionLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336E2D1F1ACBA91200F9DFA6 /* Debug */,
+				336E2D201ACBA91200F9DFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		336E2D211ACBA91200F9DFA6 /* Build configuration list for PBXNativeTarget "invisionLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336E2D221ACBA91200F9DFA6 /* Debug */,
+				336E2D231ACBA91200F9DFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 336E2CF71ACBA91100F9DFA6 /* Project object */;
+}
